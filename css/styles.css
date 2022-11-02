@@ -1,0 +1,6 @@
+
+.header__nav>ul>li>a:hover,
+.header__nav>ul>li>a:focus,
+.header__nav>ul>li>a:active{
+    color:#2196F3;
+}
