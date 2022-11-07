@@ -43,10 +43,22 @@ a{
     line-height: 1.14;
     letter-spacing: 0.02em; 
     font-family: inherit;
+    color: inherit;
+}
+
+.header__nav-link-address{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--grey-color);
 }
 
 .header__nav-link:hover,
 .header__nav-link:focus,
+.header__nav-link-address:hover,
+.header__nav-link-address:focus,
 .footer__place:hover,
 .footer__place:focus,
 .footer__link:hover,
@@ -129,7 +141,7 @@ a{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-family: inherit;
+    color: inherit;
 }
 
 .details__text{
@@ -148,6 +160,7 @@ a{
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+    color: inherit;
 }
 
 .team{
@@ -162,6 +175,7 @@ a{
     text-align: center;
     letter-spacing: 0.03em;
     font-family: inherit;
+    color: inherit;
 }
 .team__subtitle{
     font-family: inherit;
@@ -171,6 +185,7 @@ a{
     text-align: center;
     letter-spacing: 0.03em;
     font-family: inherit;
+    color: inherit;
 }
 .team__position{
     font-family: inherit;
@@ -195,6 +210,7 @@ a{
     background-color: var(--bg-grey-color);
     border: 0;
     cursor: pointer;
+    color: inherit;
 }
 
 .portfolio__title{
@@ -204,6 +220,7 @@ a{
     line-height: 2;
     letter-spacing: 0.06em;
     font-family: inherit;
+    color: inherit;
 }
 
 .portfolio__text{
