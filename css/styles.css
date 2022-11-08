@@ -65,6 +65,10 @@ a{
 .footer__link:focus{
     color: var(--blue-color);
 }
+
+.active{
+    color: var(--blue-color);
+}
 .portfolio__button:hover,
 .portfolio__button:focus{
     background-color:var(--blue-color);
